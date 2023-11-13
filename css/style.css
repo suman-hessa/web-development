@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    border:border-box;
+    background-color:black;
+}
+
+#navbar{
+    background-color:#3F33BD;
+    height:70px;
+    width:100vw;
+    color:white;
+    display:flex;
+    align-items:center;
+}
+#navbar ul{
+    list-style:none;
+    display:flex;
+    
+}
+#navbar ul li{
+    margin:0px 23px;
+}
+#navbar ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:1.2rem;
+    font-family: 'Bree Serif', serif;
+}
+#login-section{
+    display:flex;
+    justify-content:center;
+}
+.login{
+    height: 460px;
+    width: 426px;
+    border: 2px solid white;
+    margin-top: 100px;
+}
