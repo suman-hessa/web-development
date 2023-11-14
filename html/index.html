@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Passion+One&family=Teko&display=swap" rel="stylesheet">
+<script src="/javaScript/script.js"></script>
 </head>
 <body>
     <header>
@@ -20,11 +21,18 @@
             </ul>
         </div>
     </header>
-    <div id="login-section">
+    <div id="login-section" class="center" >   
+        
         <form action ="/action.php" class ="login">
-
-            <p>Username</p>
-            <input type="text" placeholder="username">
+            <p>Member Login</p>
+    <label for="username">
+        <input id ="user" type="text" placeholder="username">
+    </label> 
+    <br>
+    <label for="password">
+        <input id ="pass" type="text" placeholder="password">
+    </label>
+    
         </form>
     </div>
     

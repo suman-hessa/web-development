@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     border:border-box;
-    background-color:black;
+    background-color:rgb(110, 47, 205);
 }
 
 #navbar{
@@ -32,8 +32,32 @@
     justify-content:center;
 }
 .login{
-    height: 460px;
-    width: 426px;
+    border:border-box;
+    height: 376px;
+    width: 329px;
     border: 2px solid white;
     margin-top: 100px;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    padding:20px 10px;
 }
+#btn{
+    height:30px;
+    width:60px;
+    color:white;
+}
+#input{
+    background-color: white;
+}
+#user, #pass{
+    padding:5px;
+    border-radius:15px;
+    height:25px;
+    width:150px;
+    margin-top:15px;
+}
+.center{
+    text-align:center;
+}
+
