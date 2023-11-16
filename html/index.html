@@ -14,7 +14,7 @@
     <header>
         <div id="navbar">
             <ul>
-                <li><a href="#">Home</li>
+                <li><a id ="home" href="#" onclick="link()">Home</li>
                 <li><a href="#">Services</li>
                 <li><a href="#">About</li>
                 <li><a href="#">Contact</li>
@@ -24,15 +24,18 @@
     <div id="login-section" class="center" >   
         
         <form action ="/action.php" class ="login">
-            <p>Member Login</p>
+            <div><h3>Log in</h3></div>
+           
     <label for="username">
-        <input id ="user" type="text" placeholder="username">
+        <input id ="user" type="text" placeholder="username" required>
     </label> 
     <br>
     <label for="password">
-        <input id ="pass" type="text" placeholder="password">
-    </label>
-    
+        <input id ="pass" type="password" placeholder="password" required>
+    </label><br>
+    <button id="btn">log in</button>
+    <br>
+    <a href="#">forgot password?</a>
         </form>
     </div>
     

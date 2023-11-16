@@ -2,11 +2,10 @@
     margin:0;
     padding:0;
     border:border-box;
-    background-color:rgb(110, 47, 205);
 }
 
 #navbar{
-    background-color:#3F33BD;
+    background-color:#16697A;
     height:70px;
     width:100vw;
     color:white;
@@ -27,25 +26,52 @@
     font-size:1.2rem;
     font-family: 'Bree Serif', serif;
 }
+#navbar::after{
+    content:"";
+    position:absolute;
+    left:0px;
+    top:0px;
+    height:100vh;
+    width:100vw;
+    background-color:#EDE7E3;
+    z-index:-1;
+}
 #login-section{
     display:flex;
     justify-content:center;
 }
 .login{
     border:border-box;
-    height: 376px;
-    width: 329px;
+    height: 335px;
+    width: 330px;
     border: 2px solid white;
     margin-top: 100px;
     color: white;
     text-decoration: none;
     border-radius: 12px;
     padding:20px 10px;
+    background-color:white;
+}
+.login div{
+    background-color:blue;
+    position:relative;
+    height:40px;
+    width:100%;
+    top:0px;
+}
+ .login h3{
+    text-transform: uppercase;
+    text-decoration:dotted;
+    background-color:blue;
 }
 #btn{
-    height:30px;
-    width:60px;
-    color:white;
+    margin-top: 19px;
+    margin-bottom:10px;
+    background-color: rgb(38, 161, 218);
+    height: 33px;
+    width: 230px;
+    color: white;
+    border-radius: 8px;
 }
 #input{
     background-color: white;
@@ -54,7 +80,7 @@
     padding:5px;
     border-radius:15px;
     height:25px;
-    width:150px;
+    width:230px;
     margin-top:15px;
 }
 .center{
